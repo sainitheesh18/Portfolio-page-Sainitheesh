@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans+JP:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+:root{
+    --primary-color:#34D399;
+    --dark-gray:#9CA3AF;
+    --off-white:#F3F4F6;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+.container{
+    padding: 0rem 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+.link{
+    text-decoration: none;
+    padding: 0rem 1rem;
+}
+
+.link-primary{
+    background-color:var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: large;
+    color:#2563EB;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .link{
+    color: white;
+}
+
+.navigation .link-active{
+    font-weight: bolder;
+}
+
+.hero{
+    padding: 3rem;
+    padding-top: 3rem;
+}
+
+.hero .hero-img{
+    max-width: 400px;
+    margin: auto;
+    display: block;
+}
+
+.hero .hero-heading{
+    color: var(--dark-gray);
+    text-align: center;
+}
+
+.section{
+    padding: 1rem;
+    text-align: center;
+}
+
+.section h1{
+    padding: 1rem;
+}
+
+.section ul{
+    list-style: none;
+}
+
+.ow{
+    background-color:#E5E7EB;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color:white;
+    border-top-right-radius: 2rem;
+    padding-inline-start: 0px;
+}
+
+.footer .footer-header{
+    font-weight: bolder;
+    font-size: large;
+}
+
+.footer .link{
+    color: white;
+}
+
+.li-padding{
+    padding-bottom: 1rem;
+    background-color:#F3F4F6;
+}
