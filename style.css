@@ -130,3 +130,14 @@ hr{
     padding-bottom: 1rem;
     background-color:#F3F4F6;
 }
+
+.perso-her{
+    padding: 3rem 0rem;
+}
+
+.perso-img{
+    width: 800px;
+    display: block;
+    margin: auto;
+
+}
